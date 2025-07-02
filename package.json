@@ -6,7 +6,9 @@
     "compile": "tsc",
     "start": "npm run compile && node ./dist/index.js",
     "dev": "tsx watch src/http/server.ts",
-    "seed": "tsx src/db/seed.ts"
+    "seed": "tsx src/db/seed.ts",
+    "drizzle-generate": "npx drizzle-kit generate",
+    "drizzle-migrate": "npx drizzle-kit migrate"
   },
   "keywords": [],
   "author": "",

@@ -6,6 +6,8 @@ async function seed() {
     firstName: 'Matheus',
     lastName: 'Almeida',
     email: 'matheus_almeida@yahoo.com',
+    contact: '4002-8922',
+    profession: 'Developer'
   }
 
   await db.insert(userTable).values(user)
