@@ -5,6 +5,7 @@
   "scripts": {
     "compile": "tsc",
     "start": "npm run compile && node ./dist/index.js",
+    "build": "tsup src",
     "dev": "tsx watch src/http/server.ts",
     "seed": "tsx src/db/seed.ts",
     "drizzle-generate": "npx drizzle-kit generate",
