@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc",
-    "start": "npm run compile && node ./dist/index.js",
+    "start": "node dist/http/server.cjs",
     "build": "tsup src",
     "dev": "tsx watch src/http/server.ts",
     "seed": "tsx src/db/seed.ts",
